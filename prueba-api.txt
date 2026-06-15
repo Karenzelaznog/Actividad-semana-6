@@ -1,0 +1,20 @@
+Prueba de la ruta POST /registro
+
+URL: https://laughing-spoon-xr5545q694rx3pvxg-3000.app.github.dev/registro
+
+Body enviado:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta del servidor (Status 200 OK):
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación:
+El servidor recibe el nombre y mensaje enviados en el body,
+y los devuelve confirmando la recepción con el campo "estado".
